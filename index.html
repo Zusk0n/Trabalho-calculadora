@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Victor Lucas">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho Epico</title>
+     <link rel="stylesheet" href="css/estilov2.css">
+      <script src="js/calculadorav2.js" ></script>
+</head>
+<body>
+    <div class="calculadora">
+    <h1>Calculadora</h1>
+
+    <input type="text" id="visor" placeholder="0">
+
+    <div class="teclado">
+      
+
+      <button onclick="digitar('7')" class="btn">7</button>
+      <button onclick="digitar('8')" class="btn">8</button>
+      <button onclick="digitar('9')" class="btn">9</button>
+      <button onclick="digitar('/')" class="btn operador">/</button>
+
+      <button onclick="digitar('4')" class="btn">4</button>
+      <button onclick="digitar('5')" class="btn">5</button>
+      <button onclick="digitar('6')" class="btn">6</button>
+      <button onclick="digitar('*')" class="btn operador">×</button>
+
+      <button onclick="digitar('1')" class="btn">1</button>
+      <button onclick="digitar('2')" class="btn">2</button>
+      <button onclick="digitar('3')" class="btn">3</button>
+      <button onclick="digitar('-')" class="btn operador">−</button>
+
+      <button onclick="digitar('0')" class="btn zero">0</button>
+      <button onclick="limpar()" class="btn limpar">C</button>
+      <button onclick="digitar('+')" class="btn operador">+</button>
+
+      <button onclick="calcular()" class="btn igual grande">=</button>
+
+
+    </div>
+  </div>
+<div class="box">
+<h2>Fórmula de Bhaskara</h2>
+
+
+<input type="number" id="a" placeholder="Valor de A" class="imput"> 
+<input type="number" id="b" placeholder="Valor de B" class="imput">
+<input type="number" id="c" placeholder="Valor de C" class="imput">
+
+<button onclick="calcularBhaskara()"class="button">Calcular</button>
+
+<div id="resultado2">
+  
+</div>
+</body>
+</html>

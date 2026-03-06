@@ -1,0 +1,128 @@
+body{
+     background-color: rgb(173, 173, 173);
+     display: flex;
+     justify-content: center;
+     height: 100vh;
+     margin: 0;
+     font-family: comic sans ms;
+}
+
+.calculadora{
+    background-color: #2c2c3e;
+    padding: 20px;
+    width: 300px;
+    height: 500px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 25px rgb(55, 29, 29);
+    text-align: center;
+}
+
+.calculadora h1{
+
+     color: rgba(0, 0, 0, 0.801);
+     margin-bottom: 10px;
+
+}
+
+#visor{
+     width: 100;
+     height: 55px;
+     text-align: right;
+     border-radius: 10px;
+     padding: 10px;
+     box-sizing: border-box;
+     background-color: rgba(43, 2, 64, 0.582);
+     color: yellow;
+     margin-bottom: 15px;
+}
+
+.teclado{
+
+ display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 10px;
+     
+}
+
+.btn{
+     height: 60px;
+     font-size: 22px;
+     border-radius: 10px;
+     border-radius: 55;
+     cursor: pointer;
+}
+
+.operador{
+
+     background-color: royalblue
+     color red;
+}
+
+.limpar{
+     background-color: #1d3fd5a9;
+     color: rgb(255, 0, 0);
+}
+
+.igual{
+     background-color: rgba(29, 63, 213, 0.663);
+     color: rgb(0, 0, 0);
+}
+
+.zero{
+     grid-column: span 2;
+     border-radius: 30px;
+
+}
+.grande{
+     grid-column: span 4;
+     border-radius: 15px;
+     height: 60px;
+
+ }
+.box{
+       
+        h2 {
+            margin-top: 40px;
+        }
+
+        input {
+            padding: 8px;
+            margin: 5px;
+            border-radius: 5px;
+            border: none;
+            font-size: 14px;
+        }
+
+        button {
+            padding: 8px 15px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            background-color: #1d3fd5a9;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #1d3fd5a9;
+        }
+
+        
+            background: #2c2c3e;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 0px;
+            width: 300px;
+            height: 450px;
+        
+
+        .resultado2 {
+            margin-top: 36px auto;
+            font-weight: bold;
+            
+
+            
+        }
+     }
